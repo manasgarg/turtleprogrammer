@@ -1,0 +1,59 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/materialize.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/js/materialize.js" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link href='https://fonts.googleapis.com/css?family=Rubik:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        a.brand-logo {
+            font-weight: bold;
+        }
+
+        div.content {
+            margin: 2em 0;
+        }
+
+        .small {
+            font-size: 85%;
+        }
+
+        i.material-icons.tinyish {
+            font-size: 1.3rem;
+            margin-right: 3px;
+        }
+
+        .buttonish {
+            display: inline-block;
+        }
+
+        div.action-bar {
+            margin-bottom: 2em;
+        }
+
+        div.action-bar a.btn {
+            height: 1.7rem;
+            line-height: 1.7rem;
+            padding: 0 0.6rem;
+        }
+
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+
+    </style>
+
+</head>
