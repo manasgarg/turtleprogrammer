@@ -2,12 +2,12 @@
  * Syntax highlighting styles
  */
 .highlight {
-    background: #eee;
-    border: 1px solid #ccc;
-    padding: 0px 1ex;
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 1em 0;
 
     .highlighter-rouge & {
-      background: #eef;
+        background: #f9f9f9;
     }
 
     .c     { color: #998; font-style: italic } // Comment

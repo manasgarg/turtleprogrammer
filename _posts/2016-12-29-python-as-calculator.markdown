@@ -7,37 +7,37 @@ categories: curriculum
 
 #### Explore
 
-{% highlight python %}
-print( 2)
-{% endhighlight %}
+```python
+print(2)
+```
 
-{% highlight python %}
+```python
 print( 2+2)
-{% endhighlight %}
+```
 
 
-{% highlight python %}
+```python
 print( 2*3)
-{% endhighlight %}
+```
 
 
-{% highlight python %}
+```python
 print( 4/2)
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 print( 9-7)
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 print( 2**3)
-{% endhighlight %}
+```
 
 #### Practise
 
-  * What's 542 multiplied by 32?
-  * What's 3861 divided by 13?
-  * What's 17 to the power of 4?
+* What's 542 multiplied by 32?
+* What's 3861 divided by 13?
+* What's 17 to the power of 4?
 
 <br/>
 
@@ -47,36 +47,36 @@ print( 2**3)
 
 #### Explore
 
-{% highlight python %}
+```python
 print( 5/2)
-{% endhighlight %}
+```
 
 
-{% highlight python %}
+```python
 print( 5//2)
-{% endhighlight %}
+```
 
 
-{% highlight python %}
+```python
 print( 5.0/2)
-{% endhighlight %}
+```
 
 
-{% highlight python %}
+```python
 print( 5.0//2)
-{% endhighlight %}
+```
 
 
-{% highlight python %}
+```python
 print( 5.4//2)
-{% endhighlight %}
+```
 
 #### Practise
 
-  * What's the floor division of 323 by 34?
-  * What's the true division of 323 by 34?
-  * What's the floor division of 9 by 4?
-  * What's the true division of 9 by 4?
+* What's the floor division of 323 by 34?
+* What's the true division of 323 by 34?
+    * What's the floor division of 9 by 4?
+    * What's the true division of 9 by 4?
 
 <br/>
 
@@ -86,22 +86,22 @@ print( 5.4//2)
 
 #### Explore
 
-{% highlight python %}
+```python
 print( 5%2)
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 print( 4%2)
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 print( 13%9)
-{% endhighlight %}
+```
 
 #### Practise
 
-  * If you divide 171 by 17, what's the remainder?
-  * If you divide 346 by 33, what's the remainder?
+* If you divide 171 by 17, what's the remainder?
+* If you divide 346 by 33, what's the remainder?
 
 <br/>
 
@@ -111,34 +111,34 @@ print( 13%9)
 
 #### Explore
 
-{% highlight python %}
+```python
 print( (2+2) - 3)
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 print( (2*3) - 14)
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 print( (3*4) / (2*2))
-{% endhighlight %}
+```
 
 #### Practise
 
-{% highlight python %}
+```python
 # Add operators to this code so that it prints 0
 print( (4-2) (3-1))
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 # Add operators to this code so that it prints 4
 print( (4-2) (3-1))
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 # Add operators to this code so that it prints 12
 print( (4 2) - (3+1))
-{% endhighlight %}
+```
 
 <br/>
 
@@ -148,13 +148,23 @@ print( (4 2) - (3+1))
 
 #### Explore
 
-{% highlight python %}
+```python
 print( (4 * (2+1)) / (5 - (6/3)) )
-{% endhighlight %}
+```
 
 #### Practise
 
-{% highlight python %}
+```python
 # Find the missing number so that it prints 1
 print( ( ___ * (3-1)) / 4)
-{% endhighlight %}
+```
+
+```python
+# Something is wrong with this code. Fix it and find what it prints.
+print 4*(2-1) + 1)
+```
+
+```python
+# Something is wrong with this code. Fix it and find what it prints.
+print( 4*(2-1 + 1)
+```

@@ -6410,11 +6410,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
  * Syntax highlighting styles
  */
 .highlight {
-  background: #eee;
-  border: 1px solid #ccc;
-  padding: 0px 1ex; }
+  padding: 1rem;
+  border-radius: 3px;
+  margin: 1em 0; }
   .highlighter-rouge .highlight {
-    background: #eef; }
+    background: #f9f9f9; }
   .highlight .c {
     color: #998;
     font-style: italic; }
