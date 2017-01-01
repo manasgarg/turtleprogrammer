@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Python as Calculator"
 date:   2016-12-29 08:04:00 -0800
 categories: curriculum

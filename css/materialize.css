@@ -3278,32 +3278,32 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h1 {
   font-size: 2.3rem;
   line-height: 110%;
-  margin: 1.15rem 0 0.92rem 0; }
+  margin: 2.3rem 0 0.92rem 0; }
 
 h2 {
   font-size: 1.9rem;
   line-height: 110%;
-  margin: 0.95rem 0 0.76rem 0; }
+  margin: 1.9rem 0 0.76rem 0; }
 
 h3 {
   font-size: 1.7rem;
   line-height: 110%;
-  margin: 0.85rem 0 0.68rem 0; }
+  margin: 1.7rem 0 0.68rem 0; }
 
 h4 {
   font-size: 1.5rem;
   line-height: 110%;
-  margin: 0.75rem 0 0.6rem 0; }
+  margin: 1.5rem 0 0.6rem 0; }
 
 h5 {
   font-size: 1.4rem;
   line-height: 110%;
-  margin: 0.7rem 0 0.56rem 0; }
+  margin: 1.4rem 0 0.56rem 0; }
 
 h6 {
   font-size: 1rem;
   line-height: 110%;
-  margin: 0.5rem 0 0.4rem 0; }
+  margin: 1rem 0 0.4rem 0; }
 
 em {
   font-style: italic; }

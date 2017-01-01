@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Introduction to Strings"
 date:   2016-12-29 12:00:00 -0800
 categories: curriculum
